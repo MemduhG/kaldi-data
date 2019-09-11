@@ -1,0 +1,198 @@
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_10_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 37.63 [ 143 / 380, 12 ins, 19 del, 112 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_10_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 36.58 [ 139 / 380, 10 ins, 20 del, 109 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_10_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 37.63 [ 143 / 380, 9 ins, 29 del, 105 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_11_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 37.89 [ 144 / 380, 14 ins, 19 del, 111 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_11_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 36.58 [ 139 / 380, 10 ins, 24 del, 105 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_11_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 36.58 [ 139 / 380, 7 ins, 31 del, 101 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_12_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 39.74 [ 151 / 380, 14 ins, 21 del, 116 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_12_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 39.47 [ 150 / 380, 11 ins, 27 del, 112 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_12_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 38.95 [ 148 / 380, 7 ins, 39 del, 102 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_13_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 40.26 [ 153 / 380, 14 ins, 25 del, 114 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_13_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 39.21 [ 149 / 380, 10 ins, 30 del, 109 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_13_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 39.21 [ 149 / 380, 8 ins, 41 del, 100 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_14_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 40.79 [ 155 / 380, 13 ins, 28 del, 114 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_14_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 40.79 [ 155 / 380, 10 ins, 39 del, 106 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_14_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 40.00 [ 152 / 380, 8 ins, 41 del, 103 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_15_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 42.37 [ 161 / 380, 15 ins, 34 del, 112 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_15_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 41.32 [ 157 / 380, 10 ins, 40 del, 107 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_15_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 41.58 [ 158 / 380, 6 ins, 44 del, 108 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_16_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 41.84 [ 159 / 380, 14 ins, 35 del, 110 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_16_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 41.32 [ 157 / 380, 8 ins, 42 del, 107 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_16_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 42.37 [ 161 / 380, 5 ins, 46 del, 110 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_17_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 43.16 [ 164 / 380, 14 ins, 36 del, 114 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_17_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 42.89 [ 163 / 380, 7 ins, 43 del, 113 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_17_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 45.79 [ 174 / 380, 5 ins, 57 del, 112 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_7_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 40.53 [ 154 / 380, 17 ins, 15 del, 122 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_7_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 41.32 [ 157 / 380, 16 ins, 19 del, 122 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_7_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 41.32 [ 157 / 380, 12 ins, 23 del, 122 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_8_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 39.21 [ 149 / 380, 16 ins, 15 del, 118 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_8_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 37.11 [ 141 / 380, 11 ins, 16 del, 114 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_8_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 38.95 [ 148 / 380, 11 ins, 25 del, 112 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_9_0.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 37.63 [ 143 / 380, 13 ins, 15 del, 115 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_9_0.5 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 36.84 [ 140 / 380, 11 ins, 19 del, 110 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> exp/tri4b/decode_tgsmall_dev_clean/wer_9_1.0 <==
+compute-wer --text --mode=present ark:exp/tri4b/decode_tgsmall_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 37.11 [ 141 / 380, 9 ins, 25 del, 107 sub ]
+%SER 100.00 [ 20 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
