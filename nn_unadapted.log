@@ -1,0 +1,61 @@
+steps/nnet2/decode.sh --nj 1 --cmd run.pl --mem 4G exp/tri4b/graph_tgsmall kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_test_clean
+steps/nnet2/decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 4G --iter final exp/tri4b/graph_tgsmall exp/nnet5a_clean_100_gpu/decode_tgsmall_test_clean
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5a_clean_100_gpu/decode_tgsmall_test_clean/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(4,17,77) and mean=34.0
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5a_clean_100_gpu/decode_tgsmall_test_clean/log/analyze_lattice_depth_stats.log
+score best paths
+score confidence and timing with sclite
+Decoding done.
+steps/lmrescore.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_tgmed kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_test_clean exp/nnet5a_clean_100_gpu/decode_tgmed_test_cl
+ean
+fstrmsymbols data/lang_test_tgmed/phones/disambig.int
+fstdeterminizestar
+steps/lmrescore_const_arpa.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_tglarge kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_test_clean exp/nnet5a_clean_100_gpu/decode_
+tglarge_test_clean
+steps/lmrescore_const_arpa.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_fglarge kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_test_clean exp/nnet5a_clean_100_gpu/decode_
+fglarge_test_clean
+steps/nnet2/decode.sh --nj 1 --cmd run.pl --mem 4G exp/tri4b/graph_tgsmall kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_test_other
+steps/nnet2/decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 4G --iter final exp/tri4b/graph_tgsmall exp/nnet5a_clean_100_gpu/decode_tgsmall_test_other
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5a_clean_100_gpu/decode_tgsmall_test_other/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(4,17,77) and mean=34.0
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5a_clean_100_gpu/decode_tgsmall_test_other/log/analyze_lattice_depth_stats.log
+score best paths
+score confidence and timing with sclite
+Decoding done.
+steps/lmrescore.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_tgmed kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_test_other exp/nnet5a_clean_100_gpu/decode_tgmed_test_other
+fstrmsymbols data/lang_test_tgmed/phones/disambig.int
+fstdeterminizestar
+steps/lmrescore_const_arpa.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_tglarge kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_test_other exp/nnet5a_clean_100_gpu/decode_tglarge_test_other
+steps/lmrescore_const_arpa.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_fglarge kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_test_other exp/nnet5a_clean_100_gpu/decode_fglarge_test_other
+steps/nnet2/decode.sh --nj 1 --cmd run.pl --mem 4G exp/tri4b/graph_tgsmall kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_clean
+steps/nnet2/decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 4G --iter final exp/tri4b/graph_tgsmall exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_clean
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_clean/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(4,17,77) and mean=34.0
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_clean/log/analyze_lattice_depth_stats.log
+score best paths
+score confidence and timing with sclite
+Decoding done.
+steps/lmrescore.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_tgmed kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_clean exp/nnet5a_clean_100_gpu/decode_tgmed_dev_clean
+fstdeterminizestar
+fstrmsymbols data/lang_test_tgmed/phones/disambig.int
+steps/lmrescore_const_arpa.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_tglarge kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_clean exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean
+steps/lmrescore_const_arpa.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_fglarge kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_clean exp/nnet5a_clean_100_gpu/decode_fglarge_dev_clean
+steps/nnet2/decode.sh --nj 1 --cmd run.pl --mem 4G exp/tri4b/graph_tgsmall kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_other
+steps/nnet2/decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 4G --iter final exp/tri4b/graph_tgsmall exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_other
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_other/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(4,17,77) and mean=34.0
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_other/log/analyze_lattice_depth_stats.log
+score best paths
+score confidence and timing with sclite
+Decoding done.
+steps/lmrescore.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_tgmed kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_other exp/nnet5a_clean_100_gpu/decode_tgmed_dev_other
+fstrmsymbols data/lang_test_tgmed/phones/disambig.int
+fstdeterminizestar
+steps/lmrescore_const_arpa.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_tglarge kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_other exp/nnet5a_clean_100_gpu/decode_tglarge_dev_other
+steps/lmrescore_const_arpa.sh --cmd run.pl --mem 4G data/lang_test_tgsmall data/lang_test_fglarge kaldi-data/test exp/nnet5a_clean_100_gpu/decode_tgsmall_dev_other exp/nnet5a_clean_100_gpu/decode_fglarge_dev_other
+=== Command terminated normally (Sat Sep 14 15:47:54 2019) ===
+
