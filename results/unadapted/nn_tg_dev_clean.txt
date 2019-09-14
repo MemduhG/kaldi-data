@@ -1,0 +1,197 @@
+==> wer_10_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.21 [ 111 / 380, 13 ins, 15 del, 83 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_10_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.21 [ 111 / 380, 11 ins, 16 del, 84 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_10_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 30.00 [ 114 / 380, 10 ins, 21 del, 83 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_11_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.47 [ 112 / 380, 13 ins, 14 del, 85 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_11_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 30.00 [ 114 / 380, 11 ins, 20 del, 83 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_11_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 30.26 [ 115 / 380, 10 ins, 24 del, 81 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_12_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 30.53 [ 116 / 380, 13 ins, 18 del, 85 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_12_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 30.26 [ 115 / 380, 11 ins, 22 del, 82 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_12_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 31.05 [ 118 / 380, 10 ins, 25 del, 83 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_13_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.74 [ 113 / 380, 14 ins, 21 del, 78 sub ]
+%SER 90.00 [ 18 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_13_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 30.26 [ 115 / 380, 11 ins, 26 del, 78 sub ]
+%SER 90.00 [ 18 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_13_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 32.11 [ 122 / 380, 12 ins, 30 del, 80 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_14_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 30.26 [ 115 / 380, 13 ins, 23 del, 79 sub ]
+%SER 90.00 [ 18 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_14_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 32.37 [ 123 / 380, 13 ins, 29 del, 81 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_14_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 32.63 [ 124 / 380, 12 ins, 34 del, 78 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_15_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 32.63 [ 124 / 380, 15 ins, 28 del, 81 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_15_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 32.37 [ 123 / 380, 13 ins, 29 del, 81 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_15_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 33.16 [ 126 / 380, 12 ins, 35 del, 79 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_16_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 32.89 [ 125 / 380, 16 ins, 28 del, 81 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_16_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 32.89 [ 125 / 380, 12 ins, 32 del, 81 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_16_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 33.16 [ 126 / 380, 11 ins, 37 del, 78 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_17_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 33.42 [ 127 / 380, 15 ins, 31 del, 81 sub ]
+%SER 90.00 [ 18 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_17_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 32.89 [ 125 / 380, 12 ins, 34 del, 79 sub ]
+%SER 90.00 [ 18 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_17_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 32.89 [ 125 / 380, 10 ins, 38 del, 77 sub ]
+%SER 90.00 [ 18 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_7_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 28.68 [ 109 / 380, 17 ins, 12 del, 80 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_7_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.47 [ 112 / 380, 16 ins, 13 del, 83 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_7_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.74 [ 113 / 380, 13 ins, 15 del, 85 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_8_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.47 [ 112 / 380, 15 ins, 10 del, 87 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_8_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.21 [ 111 / 380, 14 ins, 13 del, 84 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_8_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.47 [ 112 / 380, 12 ins, 16 del, 84 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_9_0.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.21 [ 111 / 380, 14 ins, 11 del, 86 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_9_0.5 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 29.74 [ 113 / 380, 12 ins, 15 del, 86 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
+
+==> wer_9_1.0 <==
+compute-wer --text --mode=present ark:exp/nnet5a_clean_100_gpu/decode_tglarge_dev_clean/scoring/test_filt.txt ark,p:- 
+%WER 30.00 [ 114 / 380, 10 ins, 19 del, 85 sub ]
+%SER 95.00 [ 19 / 20 ]
+Scored 20 sentences, 0 not present in hyp.
